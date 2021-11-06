@@ -52,7 +52,7 @@ const loadimg = async () => {
 };
 loadmodels
   .then((res) => {
-    console.log("loaded");
+    console.log("models loaded");
     start();
   })
   .catch((err) => console.log(err));
